@@ -43,6 +43,15 @@ elif action == 2 :
      completed_path = r"C:\Users\mtimk\OneDrive\Documents\Python codes\Group Projects\Completed"
      incompleted_path = r"C:\Users\mtimk\OneDrive\Documents\Python codes\Group Projects\Incomplete"
 
+  
+      if choice2 == 2.1:
+           os.startfile(completed_path)
+
+      elif choice2 == 2.2:
+           os.startfile(incompleted_path)
+
+      else:
+           print ("")
 # Choose to Delelete or Edit inside the chosen files
 
 elif action == 3:
@@ -104,4 +113,5 @@ elif action == 3:
 
 else:
     print("Invalid option!!!")
+
 
