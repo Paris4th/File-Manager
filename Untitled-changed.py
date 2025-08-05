@@ -39,9 +39,9 @@ elif action == 2 :
                     """))
 
 # Folder paths
-
-     completed_path = r"C:\Users\mtimk\OneDrive\Documents\Python codes\Group Projects\Completed"
-     incompleted_path = r"C:\Users\mtimk\OneDrive\Documents\Python codes\Group Projects\Incomplete"
+     chosen_paths = ""
+     completed_path = r"chosen_paths"
+     incompleted_path = r"chosen_paths"
 
   
       if choice2 == 2.1:
@@ -113,5 +113,6 @@ elif action == 3:
 
 else:
     print("Invalid option!!!")
+
 
 
